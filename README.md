@@ -1,4 +1,5 @@
 to make the bot read the chat to you!
+
 python2 bot_client.py | espeak
 ------------------------------------------------
 HOW TO on UBUNTU STUDIO Version 20.04.4 LTS Focal Fossa (Xfce Desktop)
