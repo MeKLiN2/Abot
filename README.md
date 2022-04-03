@@ -1,6 +1,6 @@
 to make the bot read the chat to you!
 
-python2 bot_client.py | espeak
+python2 bot.py | espeak
 ------------------------------------------------
 HOW TO: on UBUNTU STUDIO Version 20.04.4 LTS Focal Fossa (Xfce Desktop)
 ------------------------
@@ -18,8 +18,17 @@ https://pypi.org/project/beautifulsoup4/4.6.1/#files
 https://files.pythonhosted.org/packages/8e/37/84b216b36760d157ea81ad7cba48ba2052abe54c604784e7b04668fcb281/beautifulsoup4-4.6.1.tar.gz
 https://files.pythonhosted.org/packages/28/85/df04ec21c622728316b591c2852fd20a0e74324eeb6ca26f351844ba815f/websocket_client-0.48.0.tar.gz
 -----------------------------------
+ls ~/Downloads
+cd ~/Downloads
 tar -xf beautifulsoup4-4.6.1.tar.gz
 tar -xf websocket_client-0.48.0.tar.gz
+cd websocket_client-0.48.0
+python2 setup.py install
+OR
+python2 setup.py
+cd ..
+cd beautifulsoup4-4.6.1
+python2 setup.py install
 --------------------------------------
 THEN
 -----------------------------------------
@@ -34,9 +43,12 @@ GO TO THE ROOM WHERE THE BOT WILL BE JOINING
 REFRESH THE CHAT 5 TIMES UNTIL YOU GET THE CAPTCHA, AND CAN SEE THE CAMERAS
 CLOSE THE WEB BROWSER
 
-LS $HOME\bot
-CD ~/bot
-PYTHON2 BOT.PY
+Ls ~/
+ls ~/Downloads
+ls $HOME
+ls $home\Downloads
+cd ~/bot
+python2 bot.py
 
 windows? not using pip2... no need. just regular pip!
 MAKE SURE YOU INSTALL PYTHON 2.7.1(6?) AS IT HAS THE PYTHON PATH AUTOMATICALLY ADDED TO THE DOS PROMPT!
